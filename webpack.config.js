@@ -11,7 +11,10 @@ module.exports = {
         filename: "./build.js"
     },
     resolve: {
-        extensions: [".js", ".vue", ".json"]
+        extensions: [".js", ".vue", ".json"],
+        alias: {
+            vue: 'vue/dist/vue.js'
+        }
     },
     module: {
         rules:[

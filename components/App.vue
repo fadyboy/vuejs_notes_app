@@ -1,9 +1,8 @@
 <template>
-  <div>
-      <h1>Helo</h1>
-      <!-- <toolbar></toolbar>
+  <div id="app">
+      <toolbar></toolbar>
       <notes-list></notes-list>
-      <editor></editor> -->
+      <editor></editor> 
   </div>
 </template>
 
